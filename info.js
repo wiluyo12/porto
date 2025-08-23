@@ -109,18 +109,16 @@ let info = {
         {
           img: require("./src/assets/portfolio/online examination/mizanStore2.png"),
         },
-        
-
       ],
-      technologies: ["HTML", "CSS", "JavaSript", "React.Js","MySQL"],
+      technologies: ["HTML", "CSS", "JavaSript", "React.Js", "MySQL"],
       category: "Web App",
       date: "Jan, 2024 - Apr, 2024",
       github: "https://github.com/zakikurniawan27/mizanstoreClone-backend",
       // visit: "https://github.com/mahy209/online-examination.git",
       description:
-       "Clone Website Project – Final Project Bootcamp Harisenin.com. This project was my final assignment during the Harisenin.com bootcamp, where I built a website clone focusing on UI/UX implementation, frontend structure, and core feature integration. The project aimed to enhance my skills in HTML, CSS, JavaScript, and relevant frameworks/libraries, as well as to apply best practices in modern web development.",
+        "Clone Website Project – Final Project Bootcamp Harisenin.com. This project was my final assignment during the Harisenin.com bootcamp, where I built a website clone focusing on UI/UX implementation, frontend structure, and core feature integration. The project aimed to enhance my skills in HTML, CSS, JavaScript, and relevant frameworks/libraries, as well as to apply best practices in modern web development.",
     },
-    
+
     {
       name: "Analysis of the Influence of Mental Health on Students Academic Achievement",
       pictures: [
@@ -133,7 +131,6 @@ let info = {
         {
           img: require("./src/assets/portfolio/myflix.com/mentalHealt3.png"),
         },
-       
       ],
       technologies: ["GoogleColab", "Python", "pandas", "Matplotlib", "IBM Granite AI"],
       category: "Data Science",
