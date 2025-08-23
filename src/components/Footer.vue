@@ -2,37 +2,24 @@
   <div class="bg-secondary">
     <div class="container py-3">
       <div class="row pt-1 align-items-center">
-        <div
-          class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
-          style="color: white;"
-        >
-          <span>© 2021 Copyright: Mahy Mohab</span>
+        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow" style="color: white;">
+          <span>© 2024 Copyright: Shatrio</span>
         </div>
 
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
+        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 mt-3">
           <div class="text-center">
-            <button
-              class="btn btn-outline-secondary mx-2 "
-              @click="open('linkedin')"
-            >
+            <button class="btn btn-outline-secondary mx-2 " @click="open('linkedin')">
               <i class="fab fa-linkedin"></i>
             </button>
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('github')"
-            >
+
+            <button class="btn btn-outline-secondary mx-2" @click="open('github')">
               <i class="fab fa-github"></i>
             </button>
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('behance')"
-            >
-              <i class="fab fa-behance"></i>
+
+            <button class="btn btn-outline-secondary mx-2 " @click="open('instagram')">
+              <i class="fab fa-instagram"></i>
             </button>
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('resume')"
-            >
+            <button class="btn btn-outline-secondary mx-2" @click="open('resume')">
               <i class="fa fa-file"></i>
             </button>
           </div>
@@ -51,7 +38,7 @@ export default {
     return {
       linkedin: info.links.linkedin,
       github: info.links.github,
-      behance: info.links.behance,
+      instagram: info.links.instagram,
       resume: info.links.resume,
     };
   },
@@ -64,8 +51,8 @@ export default {
         case "github":
           window.open(this.github, "_blank");
           break;
-        case "behance":
-          window.open(this.behance, "_blank");
+        case "instagram":
+          window.open(this.instagram, "_blank");
           break;
         case "resume":
           window.open(this.resume, "_blank");

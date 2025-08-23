@@ -1,360 +1,146 @@
 let info = {
-  name: "Mahy Mohab",
-  logo_name: "Mahy",
-  flat_picture: require("./src/assets/me.png"),
+  name: "shatrio",
+  logo_name: "RiO",
+  flat_picture: require("./src/assets/rr.png"),
   config: {
     use_cookies: true,
     navbar: {
-      blur: false
-    }
+      blur: false,
+    },
   },
   description:
-    "hey there, I'm Mahy Mohab about to graduate from the computer and information technology KSU, SE department. A UI/UX Designer with 2+ experience familiar with Figma, xd, photoshop, illustrator, also, a Frontend Engineer with 4+ experience, and 1+ experience with react, react native, vuejs.",
+    "A bachelor degree of informatics engineering. Previous experience as a production operator, driving the transition to Frontend developer due to strong interest in the technology and its application and want to be useful for society with technology",
   links: {
-    linkedin: "https://www.linkedin.com/in/mahy-mohab-209/",
-    github: "https://github.com/mahy209",
-    behance: "https://www.behance.net/mahymohab",
-    resume: "https://drive.google.com/file/d/1W0pzOo1Gb-W70BYKehOfZ4qaJt7m1_7O/view?usp=sharing",
+    linkedin: "https://www.linkedin.com/in/shatriyo-adi-putro-b98888258/",
+    github: "https://github.com/wiluyo12",
+    instagram: "https://www.instagram.com/shatrio.adi/",
+    resume: "https://drive.google.com/drive/folders/1YRbr6EXa40wpVdPz3Rz7p84lzjzSZebZ?usp=drive_link",
   },
   education: [
     {
-      name: "KFS University",
-      place: "Kafr Elsheikh",
-      date: "sep, 2018 - present",
-      degree: "bachelor in software engineering",
-      gpa: "3.1/4.0",
-      description:
-        "",
-      skills: [
-        "Software Engineering",
-        "web programming",
-        "UI/UX design",
-        "Front-end developing",
-      ]
+      name: "Krisna Dwipayana University",
+      place: "Jakarta, Indonesia",
+      date: "jun, 2022 - present",
+      degree: "bachelor in informatics technology",
+      gpa: "3.6/4.0",
+      description: "",
+      skills: ["Management Project", "web programming", "Front-end development", "Back-end development"],
     },
   ],
   experience: [
     {
-      name: "ITI",
-      place: "Kafr elSheikh, Egypt",
-      date: "1,sep, 2021 - 28,sep, 2021",
-      position: "VueJS web developer",
-      description:
-        "",
-      skills: ["HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript", "TypeSript", "es6", "VueJS"]
+      name: "PT.Yutaka Manufacturing Indonesia",
+      place: "Cibitung, Indonesia",
+      date: "May, 2019 - Feb, 2021",
+      position: "Production Operator & Machine Maintenance",
+      description: "",
+      skills: ["Finger Caliper", "Technical Drawing", "Developed preventive maintenance", "Operated stamping machine Aida 630T"],
     },
     {
-      name: "Udacity",
-      place: "Egypt",
-      date: "Jun 2021 - Jan 2022",
-      position: "React Web Developer",
-      description:
-        "",
-      skills: ["Javascript", "Typescript", "ReactJS", "React-Redux", "webpack", "NLP"]
+      name: "PT. Yamaha Music Manufacturing Asia",
+      place: "Cibitung, Indonesia",
+      date: "Apr 2021 - Nov 2022",
+      position: "Production Operator & Admin Production",
+      description: "",
+      skills: ["Operated Toshiba injection molding 180T", "Product Inspection", "Google SpreadSheet", "Excel"],
     },
     {
-      name: "Freelancer",
-      place: "Egypt",
-      date: "jun, 2021 - sep, 2021",
-      position: "Junior UI/UX Designer",
-      description: "creating apps and web UI, Creating Interactive prototypes, Low fidelity and UX researches",
-      skills: ["figma", "Adobe XD", "Photoshop", "Illustrator"]
-    },
-    {
-      name: "Technopolitan",
-      place: "Cairo, Egypt",
-      date: "Jan 2022 - Present",
-      position: "Mid-Level UI/UX Designer",
-      description: "part of team include project managers and developers to create technically feasible design, creating 95% of CRM of the company ,creating user experience and interface using adobe XD for best user solution ,finishing 80% of tasks before the target ",
-      skills: ["figma", "Adobe XD"]
+      name: "PT. Sanly Industries",
+      place: "Cibitung, Indonesia",
+      date: "Sept, 2023 - sep, 2025",
+      position: "Production Operator",
+      description: "",
+      skills: [" Operating injection molding machine using Super Master 360T", " inspections of the products", "Manual deburring with cutter after injection molding."],
     },
   ],
   skills: [
     {
-      title: "UX/UI Design",
-      info: ["Figma", "Illustrator", "XD", "Photoshop", "Gimp"],
-      icon: "fa fa-pencil-square-o"
+      title: "Design",
+      info: ["Figma", "Canva"],
+      icon: "fa fa-pencil-square-o",
     },
     {
       title: "Language",
-      info: [
-        "Python","Javascript","TypeScript","Java","C#"],
-      icon: "fa fa-code"
+      info: ["Python", "Javascript"],
+      icon: "fa fa-code",
     },
     {
       title: "Front-end",
-      info: [
-        "HTML5","CSS3","Bootstrap3","Es6"],
-      icon: "fa fa-cubes"
+      info: ["HTML5", "CSS3", "Tailwind"],
+      icon: "fa fa-cubes",
     },
     {
       title: "web technologies",
-      info: ["Vue", "React", "Node"],
-      icon: "fas fa-laptop-code"
+      info: ["React", "NodeJs, pyhton"],
+      icon: "fas fa-laptop-code",
     },
   ],
-  portfolio_design: [
-    {
-      name: "Keep it Green",
-      title: "UI/UX Design",
-      pictures: [
-        {
-          img: require("./src/assets/designs/Keep it green/cover.png"),
-          title: "MoodBoard"
-        },
-        {
-          img: require("./src/assets/designs/Keep it green/show.png"),
-          title: "show"
-        },
-      ],
-      technologies: ["Figma", "Photoshop"],
-      category: "Visual Design",
-      github: "",
-      date: "Jan, 2022",
-      visit: "",
-      description:
-        ""
-    },
-    {
-      name: "Digital agency website",
-      title: "UI/UX Design",
-      pictures: [
-        {
-          img: require("./src/assets/designs/digital agency/behance cover.png"),
-          title: "MoodBoard"
-        },
-        {
-          img: require("./src/assets/designs/digital agency/1. start.png"),
-          title: "App Elements"
-        },
-        {
-          img: require("./src/assets/designs/digital agency/2. about.png"),
-          title: "App Elements"
-        },
-        {
-          img: require("./src/assets/designs/digital agency/3. Our services.png"),
-          title: "App Elements"
-        },
-        {
-          img: require("./src/assets/designs/digital agency/4. latest project.png"),
-          title: "App Elements"
-        },
-        {
-          img: require("./src/assets/designs/digital agency/5. Contact us.png"),
-          title: "App Elements"
-        },
-      ],
-      technologies: ["Figma", "Illustrator"],
-      category: "Visual Design",
-      github: "",
-      date: "Dec, 2021",
-      visit: "",
-      description:
-        ""
-    },
-    {
-      name: "Credit card design",
-      title: "Illustration",
-      pictures: [
-        {
-          img: require("./src/assets/designs/credit/behance cover.png"),
-          title: "MoodBoard"
-        },
-        {
-          img: require("./src/assets/designs/credit/degisning.png"),
-          title: "Degisning"
-        },
-        {
-          img: require("./src/assets/designs/credit/Dual tune.png"),
-          title: "Dual tune"
-        },
-        {
-          img: require("./src/assets/designs/credit/Glassmorphism.png"),
-          title: "Glassmorphism"
-        },
-        {
-          img: require("./src/assets/designs/credit/Gradiant.png"),
-          title: "Gradiant"
-        },
-        {
-          img: require("./src/assets/designs/credit/Monochrome.png"),
-          title: "Monochrome"
-        },
-        {
-          img: require("./src/assets/designs/credit/Neumorphism.png"),
-          title: "Neumorphism"
-        },
-      ],
-      technologies: ["Figma", "Illustrator"],
-      category: "Visual Design",
-      github: "",
-      date: "Dec, 2021",
-      visit: "",
-      description:
-        ""
-    },
-    {
-      name: "BOOKSI",
-      title: "E-Book library - UI/UX Design",
-      pictures: [
-        {
-          img: require("./src/assets/designs/booksi/behance cover.png"),
-          title: "Cover"
-        },
-        {
-          img: require("./src/assets/designs/booksi/behance board.png"),
-          title: "MoodBoard"
-        },
-        {
-          img: require("./src/assets/designs/booksi/login.png"),
-          title: "login"
-        },
-        {
-          img: require("./src/assets/designs/booksi/register.png"),
-          title: "register"
-        },
-        {
-          img: require("./src/assets/designs/booksi/home page.png"),
-          title: "homepage"
-        },
-        {
-          img: require("./src/assets/designs/booksi/For you.png"),
-          title: "just for you"
-        }
-      ],
-      technologies: ["Figma", "Photoshop"],
-      category: "Visual Design",
-      github: "",
-      date: "Nov, 2021",
-      visit: "",
-      description:
-        " BOOKSI is Ebook android app for easy read books."
-    },
-    {
-      name: "Quiet Weather",
-      title: "UI/UX Design",
-      pictures: [
-        {
-          img: require("./src/assets/designs/weather/Wooden Hand iPhone 12 Pro.png"),
-          title: "MoodBoard"
-        },
-        {
-          img: require("./src/assets/designs/weather/artboard.png"),
-          title: "show"
-        },
-        {
-          img: require("./src/assets/designs/weather/weather app react native.png"),
-          title: "components"
-        },
-      ],
-      technologies: ["Figma", "Illustration"],
-      category: "Visual Design",
-      github: "",
-      date: "Nov, 2021",
-      visit: "",
-      description:
-        "Quiet Weather is a react native app by openweathermap api, i designed the ui/ux and coding it in react native, enjoy it!"
-    },
-    {
-      name: "Pill Reminder",
-      title: "Pill Reminder - Mockup Design",
-      pictures: [
-        {
-          img: require("./src/assets/designs/pill reminder/Web 1.png"),
-          title: "Moodboard"
-        },
-        {
-          img: require("./src/assets/designs/pill reminder/1.png"),
-          title: "Mockups 1"
-        },
-        {
-          img: require("./src/assets/designs/pill reminder/2.png"),
-          title: "Mockups 2"
-        }
-      ],
-      technologies: ["XD", "Illustrator"],
-      category: "Visual Design",
-      github: "",
-      date: "Apr, 2021",
-      visit: "",
-      description:
-        "pill reminder app for nessecary drugs for the day."
-    },
-  ],
+  portfolio_design: [],
   portfolio: [
     {
-      name: "Diary App",
+      name: "Evaluas - App",
       pictures: [
         {
-          img: require("./src/assets/portfolio/diary/1.png")
+          img: require("./src/assets/portfolio/diary/login.png"),
         },
         {
-          img: require("./src/assets/portfolio/diary/2.png")
+          img: require("./src/assets/portfolio/diary/header.png"),
         },
         {
-          img: require("./src/assets/portfolio/diary/3.png")
+          img: require("./src/assets/portfolio/diary/main.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/diary/footer.png"),
         },
       ],
-      technologies: ["react", "scss", "local storage"],
+      technologies: ["react", "js", "Tailwind"],
       category: "Web App",
-      date: "Aug, 2021 - 20 days",
-      github:
-        "https://github.com/mahy209/notes-react-app.git",
-      visit: "https://github.com/mahy209/notes-react-app.git",
-      description:
-        " Diary react app with some new features: Dark mode, upload images, tags, filter search with title/content/tag "
+      date: "July, 2025 - 10 days",
+      github: "https://github.com/wiluyo12/sistem_pengambilan_keputusan",
+      visit: "https://evaluas.netlify.app/login",
+      description: " Developed a decision support web application with React.js and Tailwind CSS to evaluate and select the best operator based on performance criteria such as attendance, quality, and compliance ",
     },
     {
-      name: "Online Examination",
+      name: "Mizanstore- clone - App",
       pictures: [
         {
-          img: require("./src/assets/portfolio/online examination/exam (1).png")
+          img: require("./src/assets/portfolio/online examination/mizanStore1.png"),
         },
         {
-          img: require("./src/assets/portfolio/online examination/exam (2).png")
+          img: require("./src/assets/portfolio/online examination/mizanStore2.png"),
         },
-        {
-          img: require("./src/assets/portfolio/online examination/exam (3).png")
-        },
-        {
-          img: require("./src/assets/portfolio/online examination/exam (4).png")
-        },
-        {
-          img: require("./src/assets/portfolio/online examination/exam (5).png")
-        }
+        
+
       ],
-      technologies: ["HTML", "CSS","JavaSript","JQuery", "PHP", "MySQL"],
+      technologies: ["HTML", "CSS", "JavaSript", "React.Js","MySQL"],
       category: "Web App",
-      date: "Apr, 2021 - May, 2021",
-      github: "https://github.com/mahy209/online-examination.git",
-      visit: "https://github.com/mahy209/online-examination.git",
+      date: "Jan, 2024 - Apr, 2024",
+      github: "https://github.com/zakikurniawan27/mizanstoreClone-backend",
+      // visit: "https://github.com/mahy209/online-examination.git",
       description:
-        "Online Examination System Today Online Examination System has become a fast growing examination method because of its speed and accuracy. It is also needed less manpower to execute the examination. Almost all organizations now-a-days, are conducting their objective exams by online examination system, it saves students time in examinations. Organizations can also easily check the performance of the student that they give in an examination. As a result of this, organizations are releasing results in less time. It also helps the environment by saving paper. According to today’s requirement, online examination project in php is very useful to learn it. What is an online examination system? In an online examination system examine get their user id and password with his/her admit card. This id is already saved in the examination server. When examine login to the server he/she get his/her profile already register. On the certain time examine gets the message to start the examination. All answers given by examine are saved into the server with his/her profile information. Online examination system also allows to correct the answer if the examine needed to change any answer in the examination time duration, however, after the time duration any change will not allow. This also makes c checking the answer easy and error proof as computers are more accurate than man and provide fast results too. Php is a web base language so we can create an online examination system in PHP. Administrator of Online Examination has multiple features such as Add, Delete, Update Topics and Question. To Login as Admin put inside your browser."
+       "Clone Website Project – Final Project Bootcamp Harisenin.com. This project was my final assignment during the Harisenin.com bootcamp, where I built a website clone focusing on UI/UX implementation, frontend structure, and core feature integration. The project aimed to enhance my skills in HTML, CSS, JavaScript, and relevant frameworks/libraries, as well as to apply best practices in modern web development.",
     },
+    
     {
-      name: "MyFlix.com",
+      name: "Analysis of the Influence of Mental Health on Students Academic Achievement",
       pictures: [
         {
-          img: require("./src/assets/portfolio/myflix.com/1.png")
+          img: require("./src/assets/portfolio/myflix.com/mentalHealt1.png"),
         },
         {
-          img: require("./src/assets/portfolio/myflix.com/2.png")
+          img: require("./src/assets/portfolio/myflix.com/mentalHealt2.png"),
         },
         {
-          img: require("./src/assets/portfolio/myflix.com/3.png")
+          img: require("./src/assets/portfolio/myflix.com/mentalHealt3.png"),
         },
-        {
-          img: require("./src/assets/portfolio/myflix.com/4.png")
-        },
+       
       ],
-      technologies: ["react", "css", "TMDB"],
-      category: "Web App",
-      date: "Aug, 2021 - 10 days",
-      github:
-        "https://github.com/mahy209/MyFlix-react-app.git",
-      visit: "https://github.com/mahy209/MyFlix-react-app.git",
-      description:
-        " flix.com is a netflix clone using React JS and TMDB with courusal and search engine. "
+      technologies: ["GoogleColab", "Python", "pandas", "Matplotlib", "IBM Granite AI"],
+      category: "Data Science",
+      date: "Jul, 2025 - 7 days",
+      github: "https://github.com/wiluyo12/Capstone-IBM-HACKTIV8-SHATRIO",
+      visit: "https://www.canva.com/design/DAGsXlWQ7eE/8gvaNUsqeOLzaj2KFpZo3w/edit?utm_content=DAGsXlWQ7eE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+      description: " This project analyzed a public Kaggle dataset on student mental health using Python (Pandas, Matplotlib) and IBM Granite to explore the impact of academic, financial, and social pressures on student well-being. ",
     },
   ],
 };
